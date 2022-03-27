@@ -12,10 +12,12 @@ class Porsche:
     def set_price(self, price):
         self.price = price
 
-포르쉐 = Porsche(None, None)
+    def get_model(self):
+        return self.model
 
-포르쉐.set_name("카이엔")
-포르쉐.set_price("2억")
+    def get_price(self):
+        return self.price
 
-print(포르쉐.model)
-print(포르쉐.price)
+포르쉐 = Porsche("박스터", "2억")
+
+print(포르쉐.get_model())
