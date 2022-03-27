@@ -1,0 +1,2 @@
+class Porsche:
+    pass
